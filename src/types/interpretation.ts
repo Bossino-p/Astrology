@@ -4,10 +4,11 @@ export type PhaseInterpretation = {
   subPlanet: string;
   title: string;
   keyMessage: string;
+  opportunity: string;
   watchOutFor: string[];
   whyThisPhaseFeelsThisWay: string;
   hiddenTrap: string;
-  practicalMove: string;
-  reflectionQuestion: string;
+  practicalFocus: string;
+  reflectionQuestion?: string;
   toneTags?: string[];
 };
